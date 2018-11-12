@@ -1,0 +1,10 @@
+[package]
+name = "driver"
+version = "0.1.0"
+authors = ["mateusz"]
+
+[dependencies]
+serial = "0.4"
+[dependencies.wiringpi]
+version = "0.2"
+features = ["development"]
